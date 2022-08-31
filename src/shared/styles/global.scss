@@ -1,0 +1,70 @@
+@import "leaflet-routing-machine/dist/leaflet-routing-machine.css";
+
+@import "antd/dist/antd.min.css";
+
+@import "leaflet/dist/leaflet.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #c6cce2 rgba(#d4daec, 0.5);
+}
+
+html {
+  font-size: 10px;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(#d4daec, 0.5);
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c6cce2;
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: darken(#c6cce2, 10%);
+}
+
+body {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+  }
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: none;
+}

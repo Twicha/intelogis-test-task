@@ -1,0 +1,17 @@
+.request-table {
+  &__row {
+    cursor: pointer;
+
+    &:hover:not(&--active) {
+      background-color: rgba(128, 128, 128, 0.1);
+    }
+
+    &--active {
+      background: rgb(75, 149, 206);
+    }
+  }
+
+  &__select {
+    width: 100%;
+  }
+}

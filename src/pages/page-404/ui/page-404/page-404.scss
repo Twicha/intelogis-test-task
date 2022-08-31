@@ -1,0 +1,24 @@
+.page-404 {
+  padding: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    font-size: 100px;
+    line-height: 110px;
+  }
+
+  &__description {
+    font-size: 50px;
+    line-height: 60px;
+    color: gray;
+  }
+
+  &__link {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+  }
+}

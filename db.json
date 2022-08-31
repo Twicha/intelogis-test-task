@@ -1,0 +1,152 @@
+{
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "Store 1",
+      "coords": [
+        54.694804,
+        20.503251
+      ]
+    },
+    {
+      "id": "store-2",
+      "name": "Store 2",
+      "coords": [
+        54.68119,
+        20.47201
+      ]
+    },
+    {
+      "id": "store-3",
+      "name": "Store 3",
+      "coords": [
+        54.683967,
+        20.457048
+      ]
+    },
+    {
+      "id": "store-4",
+      "name": "Store 4",
+      "coords": [
+        54.716709,
+        20.462908
+      ]
+    },
+    {
+      "id": "store-5",
+      "name": "Store 5",
+      "coords": [
+        54.739939,
+        20.476644
+      ]
+    },
+    {
+      "id": "store-6",
+      "name": "Store 6",
+      "coords": [
+        54.753673,
+        20.545
+      ]
+    },
+    {
+      "id": "store-7",
+      "name": "Store 7",
+      "coords": [
+        54.706412,
+        20.586047
+      ]
+    },
+    {
+      "id": "store-8",
+      "name": "Store 8",
+      "coords": [
+        54.72399,
+        20.65175
+      ]
+    },
+    {
+      "id": "store-9",
+      "name": "Store 9",
+      "coords": [
+        54.709112,
+        20.523215
+      ]
+    },
+    {
+      "id": "store-10",
+      "name": "Store 10",
+      "coords": [
+        54.718826,
+        20.501961
+      ]
+    },
+    {
+      "id": "store-11",
+      "name": "Store 11",
+      "coords": [
+        54.72186,
+        20.419256
+      ]
+    },
+    {
+      "id": "store-12",
+      "name": "Store 12",
+      "coords": [
+        54.746397,
+        20.480951
+      ]
+    },
+    {
+      "id": "store-13",
+      "name": "Store 13",
+      "coords": [
+        54.721253,
+        20.524404
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "request-1",
+      "name": "Request 233",
+      "startStoreId": "store-6",
+      "endStoreId": "store-4"
+    },
+    {
+      "id": "request-2",
+      "name": "Request 2",
+      "startStoreId": "store-2",
+      "endStoreId": "store-3"
+    },
+    {
+      "id": "request-3",
+      "name": "Request 3",
+      "startStoreId": "store-1",
+      "endStoreId": "store-2"
+    },
+    {
+      "id": "request-4",
+      "name": "Request 4",
+      "startStoreId": "store-8",
+      "endStoreId": "store-2"
+    },
+    {
+      "id": "request-5",
+      "name": "Request 5",
+      "startStoreId": "store-2",
+      "endStoreId": "store-9"
+    },
+    {
+      "id": "request-6",
+      "name": "Request 6",
+      "startStoreId": "store-4",
+      "endStoreId": "store-11"
+    },
+    {
+      "id": "request-7",
+      "name": "Request 7",
+      "startStoreId": "store-5",
+      "endStoreId": "store-8"
+    }
+  ]
+}

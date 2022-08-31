@@ -1,0 +1,28 @@
+.base-splitter {
+  --splitter-btn-width: 30px;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  &__btn {
+    margin: 0 3px;
+    height: 100%;
+    min-width: calc(var(--splitter-btn-width) - 6px);
+    width: calc(var(--splitter-btn-width) - 6px);
+    cursor: ew-resize;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    background-image: url("../../../../images/icons/left-right-arrow.svg");
+    box-shadow: 0 0 2px 4px rgba(128, 128, 128, 0.5) inset;
+    border-radius: 6px;
+  }
+
+  &__item {
+    min-width: 10px;
+    width: calc((100% - var(--splitter-btn-width)) / 2);
+    height: 100%;
+    overflow: hidden;
+  }
+}
