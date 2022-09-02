@@ -50,7 +50,7 @@ export const RequestTable: FC<Props> = ({ className }): ReactElement => {
             dispatch(setSelectedRequestId(row.id));
           },
         })}
-        scroll={{ y: 345 }}
+        scroll={{ y: "calc(100vh - 145px)" }}
         dataSource={requests}
         pagination={false}
       />

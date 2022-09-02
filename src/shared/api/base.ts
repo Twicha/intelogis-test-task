@@ -10,11 +10,6 @@ apiInstance.interceptors.request.use(
   async (config) => {
     config.baseURL = baseURL;
 
-    config.headers = {
-      Accept: "application/json",
-      "Content-type": "application/json; charset=UTF-8",
-    };
-
     return config;
   },
   (error) => {
